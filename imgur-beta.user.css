@@ -1,0 +1,64 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain(imgur.com)
+{
+.App-cover > .Message {
+display: none !important;
+}
+
+.CoverChangeGallery  {
+display: none !important;
+}
+
+.TrendingTags  {
+display: none !important;
+}
+
+
+.HomeGrid {
+display: none !important;
+}
+
+.btn-action {
+    background: #333333 !important;
+    border: 1px solid #444444 !important;
+}
+
+.btn-action:hover {
+    background: #444444 !important;
+    border: 1px solid #444444 !important;
+
+}
+
+#topbar .upload-button-container {
+    border: 1px solid #444444 !important;
+    background: #333333 !important;
+}
+
+#topbar .upload-button-container:hover {
+    border: 1px solid #444444 !important;
+    background: #444444 !important;
+}
+
+#inside {
+width: 90% !important;
+max-width: none !important;
+margin-left: 10% !important;
+margin-right: 5% !important;
+margin-top: 50px !important;
+}
+
+.post-container {
+width: 80% !important;
+max-width: none !important;
+}
+
+.post-header {
+width: 100% !important;
+max-width: none !important;
+}
+
+.social-icon {
+display: none !important;
+}
+}
